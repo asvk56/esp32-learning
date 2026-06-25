@@ -1,8 +1,12 @@
 # ESP32 Learning Journey
 
-This repository tracks my step-by-step progress through the ESP32 firmware development and embedded systems roadmap.
+Progressive learning repo covering ESP32 fundamentals to IoT projects.
 
-## Phase 1: Basics & GPIOs
-* **LED_Blink:** Basic micro-controller setup, output configuration, and global time variables (`dt`).
-* **Switch_LED:** Understanding digital input states and configuring internal hardware pull-up resistors (`INPUT_PULLUP`).
-* **ToggleSwitch_LED:** Implementing software-based switch debouncing and state change detection to mimic a mechanical toggle.
+## Topics Covered
+- GPIO: LED_Blink, Switch_LED, ToggleSwitch_LED, PWM_Dimming
+- Sensors: PIR_Sensor, HC-SR04, ADC
+- Connectivity: WiFi_Connect, Web_Server (with PIR security dashboard)
+
+## Highlight Project
+Web_Server folder — Combined PIR motion detection with 
+WiFi-based security dashboard
